@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    justify-items: center;    
+    align-items: center;
+    
+}
+
+.card {
+    padding: 10px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 3%;
+    box-shadow: 0 0 10px 10px rgba(7, 7, 39, 0.493);;
+    max-width: 13em;
+}
+.card-image {
+    max-width: 100%;
+    border-radius: 3%;
+    
+    
+}
+
+.content {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: #fff;
+    font-weight: 600;
+    
+}
+
+.description {
+    font-weight: 200;
+    font-size: 15px;
+    color: #8bacd9;
+    margin: 10px 0 10px 0;
+   
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+}
+
+.ethereum-icon {
+    max-height: 12px;
+    margin-right: 7px;
+}
+
+.time {
+    color: #8bacd9;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 11px;
+
+}
+.clock-icon {
+    max-height: 12px;
+    margin-right: 7px;
+}
+
+.line {
+    background-color: #8bacd98e;
+    height: 1px;
+    margin: 10px 0 10px 0
+    
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    color: #8bacd9;
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.avatar {
+    max-height: 25px;
+    border: solid 1px #8bacd9;
+    border-radius: 36px;
+    margin-right: 8px
+    
+}
+
+.creation-of {
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.author-name {
+    color: #fff;
+    font-weight: 900;
+    font-size: 11px;
+    font-style: bold;
+}
