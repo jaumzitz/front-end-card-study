@@ -1,3 +1,11 @@
+# Sobre o repositório
+
+Esse é um estudo baseado no challenge da Frontend Mentor, onde usando HTML e CSS construi um componente card. 
+
+Foi o primeiro desafio de fron-end que realizei sem orientação. ;)
+
+Abaixo segue informações sobre o desafio:
+
 # Frontend Mentor - NFT preview card component
 
 ![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
